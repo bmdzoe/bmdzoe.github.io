@@ -1,210 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, inital-scale=1.0">
-        <title>Portfolio Webiste </title>
-        <link rel="stylesheet" href="style1.css">
-        <script src="https://kit.fontawesome.com/46af404c4f.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-<div id="header">
-    <div class="container">
-        <nav>
-            <ul>
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#content">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="header-text">
-            <p>Front End Developer</p>
-            <h1>Hi, I'm Benjamin Dulcio</h1>
-        </div>
-    </div>
-</div>
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-2">
-                <h1 class="subtitle">About Me</h1>
-                <p>Hello, I am a college student pursuing a SWE or CS internship.
-                    I enjoy creating projects using Java, HTML, CSS and Python. I have created
-                    projects that are displayed in the my work section and still working on some.
-                </p>
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>Soft Skills</span><br>Team Player, Accountable, Responsible, and Great Listener</li>
-                        <li><span>Hard Skills</span><br>Mathematician, Proficient in French, Spanish, and Haitian Creole</li>
-                        <li><span>Programming Languages</span><br>Java, HTML5, CSS and Python</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>2017-Present</span><br>Volunteer Webiste Developer at Nvision Church</li>
-                        <li><span>2020-Present</span><br>Webiste Developer at French Homework Club</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2017-2021</span><br>Collins Hill Highschool</li>
-                        <li><span>2021-Present</span><br>Bachelor in CS at Kennesaw State University</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benjamin Dulcio — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
 
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Website Developer</h2>
-                <p>
-                 Website development was one of the first aspects of coding that captivated my interest. 
-                 When my aunt invited me to assist with her non-profit organization, French Homework Club, 
-                I gained valuable real-world experience. I was tasked with meeting specific deadlines, 
-                resolving troubleshooting issues, and exercising creative freedom in designing the website. 
-                These experiences honed my skills, which I am eager to apply and further develop at 
-                a forward-thinking company.
-                </p>
-            </div>
-            <div>
-                <i class="fa-solid fa-gamepad"></i>
-                <h2>Game Development</h2>
-                <p>
-                Many of us have fond memories of playing various types of games, from board games and card games to video games. 
-                Discovering that I could create some of my favorite games from scratch through coding was an exciting opportunity 
-                that I eagerly embraced. This passion for game development was a primary factor in my decision to major in Computer 
-                Science, as my AP Computer Science Principles class focused extensively on game creation, which I thoroughly enjoyed. 
-                I aim to ensure that coding remains both an enriching learning experience and a source of enjoyment for me.
-                </p>
-            </div>
-            <div>
-                <i class="fa-solid fa-desktop"></i>
-                <h2>Desktop Application Development</h2>
-                <p>
-                Desktop applications are often overlooked but play a crucial role in our daily device usage. 
-                Whether it’s logging into Netflix, managing your savings account, or ordering dinner, these applications 
-                are integral to our routines. The absence of such applications would be significantly felt. While I have 
-                worked on one desktop application, I am eager to expand my experience and deepen my understanding of 
-                this important area of software development. 
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhr1QumYlTKGOcn-UX7EvxCBb2YdIyP5r_0g&s" alt="">
-                <div class="layer">
-                    <h3>Login GUI</h3>
-                    <p>Formulated a GUI Login in Java and JavaFX that allows
-                        you to login with a username and password. This project enabled me to comprehend:
-                        Action Event Class, Action Listenr Interface, Implmentation and If Else Statements.
-                    </p>
-                        <a href="https://github.com/bmdzoe/LoginGUI" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="https://cdn-icons-png.flaticon.com/512/10199/10199746.png" alt="">
-                <div class="layer">
-                    <h3>Tic-Tac-Toe</h3>
-                    <p>Constructed a Tic-Tac-Toe game in Java that allows you and
-                        a friend to play the classic game. This project enhanced my understanding of:
-                        Array List, While and For Loops, If and Else If Statments, Switch Cases,
-                        List Interface, and Random and Scanner Class.
-                    </p>
-                        <a href="https://github.com/bmdzoe/TicTacToe2" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                </div>
-                <div class="work">
-                    <img src="https://cdn-icons-png.flaticon.com/512/43/43980.png" alt="">
-                    <div class="layer">
-                        <h3>Hangman</h3>
-                        <p> Developed a Hangman game in Java that allows players
-                            to guess letters and reveal a hidden word while avoiding
-                            a hangman figure. This project helped me grasp: File Handling,
-                            Array List, Scanner Class, For and While loops and Else If Statments.
-                        </p>
-                            <a href="https://github.com/bmdzoe/Hangman1" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
-                    </div>
-                    
-</div>
-<a href="https://github.com/bmdzoe"class="btn" target="_blank">Click here</a>
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo">Benjamin Dulcio</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-<div id="content">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-share"></i>dulciobenjamin@gmail.com</p>
-                <div class="social-icons">
-                    <a href="mailto:dulciobenjamin@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-                    <a href="https://github.com/bmdzoe" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/benjamin-dulcio-5a6241208" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-                <a href="Downloads/Resume .docx" download class="btn btn2">My Resume</a>
-            </div>
-            <div class="contact-right"></div>
-            <form name="submit-to-google-sheet">
-                <input type="text" name="Name" placeholder="Your Name" required>
-                <input type="email" name="Email" placeholder="Your Email" required>
-                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                <button type="submit"class="btn btn2">Submit</button>
-            </form>
+  <!-- HERO -->
+  <div class="hero" id="header">
+    <div class="hero-inner">
+      <div>
+        <h1>Hi, I'm <span>Benjamin</span> — I build things that work.</h1>
+        <p class="hero-desc">
+          Software Engineering student at KSU. I like figuring out hard problems and shipping full-stack apps that actually do something. Currently looking for backend or full-stack opportunities.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">See My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
         </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-title">Tech Stack</div>
+        <div class="skill-list">
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">Flask</span>
+          <span class="skill-pill">React</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">PostgreSQL</span>
+          <span class="skill-pill">SQLAlchemy</span>
+          <span class="skill-pill">REST APIs</span>
+          <span class="skill-pill">OAuth 2.0</span>
+          <span class="skill-pill">Docker</span>
+          <span class="skill-pill">Git</span>
+          <span class="skill-pill">Java</span>
+          <span class="skill-pill">SQL</span>
+          <span class="skill-pill">HTML</span>
+          <span class="skill-pill">CSS</span>
+          <span class="skill-pill">pytest</span>
+        </div>
+        <div class="stat-row">
+          <div class="stat">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">30+</span>
+            <span class="stat-label">Tests Written</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">1</span>
+            <span class="stat-label">Live App</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <span id="msg">Welcome</span>
-    <div class="copyright">
-        <p>© Benjamin Mares Dulcio</p>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="reveal">
+      <div class="section-label">About Me</div>
+      <h2 class="section-title">A problem solver who figures things out</h2>
+      <p class="section-sub">Here's a bit about who I am beyond the code.</p>
     </div>
-</div>
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-</script>
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzEmby7w7yT10E0TC6EZqZJPMXuMRUQa-978ugU5NjrudKei1nqJr5blLPKOWlyNSfi/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML= "Message Recived"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-    </body>
+    <div class="about-grid reveal">
+      <div class="about-text">
+        <p>I'm a Software Engineering student at Kennesaw State University, graduating in July 2026. I got into coding because I wanted to build things — not just learn theory. That's still what drives me.</p>
+        <p>My biggest project so far is CineVault — a full-stack movie tracking app I built because I wanted a place to track what I watch. It ended up becoming a full platform with a Flask REST API, React frontend, PostgreSQL database, Google OAuth, trailers, watchlists, and 30+ automated tests.</p>
+        <p>Outside of coding, I'm into gaming and sports. I speak French, Spanish, and Haitian Creole. I like problems that don't have obvious answers.</p>
+        <p class="about-btns">
+          <a href="https://www.linkedin.com/in/benjamin-dulcio" class="btn btn-outline" target="_blank">LinkedIn ↗</a>
+          <a href="https://github.com/bmdzoe" class="btn btn-outline" target="_blank">GitHub ↗</a>
+        </p>
+      </div>
+      <div class="about-details">
+        <div class="detail-card">
+          <div class="detail-card-title">Education</div>
+          <div class="detail-card-body">
+            <strong>B.S. Software Engineering</strong><br>
+            Kennesaw State University<br>
+            <span class="detail-muted">Expected July 2026</span>
+          </div>
+        </div>
+        <div class="detail-card">
+          <div class="detail-card-title">Certification</div>
+          <div class="detail-card-body">
+            <strong>Next.js App Router Fundamentals</strong><br>
+            Vercel · Issued Jan 2026<br>
+            <span class="detail-muted">Credential ID: dashboard-app</span>
+          </div>
+        </div>
+        <div class="detail-card">
+          <div class="detail-card-title">Location</div>
+          <div class="detail-card-body">Marietta, GA · Open to remote</div>
+        </div>
+        <div class="detail-card">
+          <div class="detail-card-title">Languages</div>
+          <div class="detail-card-body">English · French · Spanish · Haitian Creole</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section-alt">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-label">My Work</div>
+        <h2 class="section-title">Things I've built</h2>
+        <p class="section-sub">From full-stack platforms to Java games — here's what I've been working on.</p>
+      </div>
+      <div class="projects-grid reveal">
+
+        <!-- CineVault — Featured -->
+        <div class="project-card featured">
+          <div class="project-img dark">
+            <span class="project-emoji">🎬</span>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Flask</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">PostgreSQL</span>
+              <span class="project-tag">REST API</span>
+              <span class="project-tag">Docker</span>
+            </div>
+            <h3 class="project-title">
+              CineVault
+              <span class="live-badge"><span class="live-dot"></span> Live</span>
+            </h3>
+            <p class="project-desc">
+              A full-stack movie tracking platform I built because I wanted to track what I watch. Features a Flask REST API, Netflix-style React frontend, PostgreSQL database, Google OAuth, personal watchlists, user reviews, live trailers, and TMDB-powered recommendations. Deployed to Railway with Docker and 30+ automated pytest tests.
+            </p>
+            <div class="project-links">
+              <a href="https://cinevault-production-d7f5.up.railway.app" target="_blank" class="btn btn-primary btn-sm">Live Demo ↗</a>
+              <a href="https://github.com/bmdzoe/cinevault" target="_blank" class="btn btn-outline btn-sm">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Weather App -->
+        <div class="project-card">
+          <div class="project-img light-blue">
+            <span class="project-emoji">🌤</span>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">REST API</span>
+              <span class="project-tag">Requests</span>
+            </div>
+            <h3 class="project-title">Weather App</h3>
+            <p class="project-desc">Python app that fetches real-time weather data from a public API. Handles JSON parsing, error handling, and response validation.</p>
+            <div class="project-links">
+              <a href="https://github.com/bmdzoe" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Login GUI -->
+        <div class="project-card">
+          <div class="project-img light-sky">
+            <span class="project-emoji">🔐</span>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">JavaFX</span>
+            </div>
+            <h3 class="project-title">Login GUI</h3>
+            <p class="project-desc">A GUI login app in Java and JavaFX with username and password authentication. Built to understand Action Events and the Action Listener Interface.</p>
+            <div class="project-links">
+              <a href="https://github.com/bmdzoe" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tic Tac Toe -->
+        <div class="project-card">
+          <div class="project-img light-purple">
+            <span class="project-emoji">🎮</span>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+            </div>
+            <h3 class="project-title">Tic-Tac-Toe</h3>
+            <p class="project-desc">Two-player Tic-Tac-Toe game in Java. Reinforced ArrayList, loops, switch cases, and the List Interface.</p>
+            <div class="project-links">
+              <a href="https://github.com/bmdzoe" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hangman -->
+        <div class="project-card">
+          <div class="project-img light-orange">
+            <span class="project-emoji">📝</span>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+            </div>
+            <h3 class="project-title">Hangman</h3>
+            <p class="project-desc">Classic Hangman game where players guess letters to reveal a hidden word. Introduced me to file handling and array manipulation in Java.</p>
+            <div class="project-links">
+              <a href="https://github.com/bmdzoe" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="reveal">
+      <div class="section-label">Skills</div>
+      <h2 class="section-title">What I work with</h2>
+      <p class="section-sub">Technologies and tools I use to build things.</p>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-card">
+        <div class="skill-card-icon">🐍</div>
+        <div class="skill-card-title">Backend</div>
+        <div class="skill-card-items">Python · Flask · SQLAlchemy · Flask-Login · Marshmallow · gunicorn · REST APIs · OAuth 2.0</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">⚛️</div>
+        <div class="skill-card-title">Frontend</div>
+        <div class="skill-card-items">React · JavaScript · HTML · CSS · React Router · Context API · Vite · Responsive Design</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">🗄️</div>
+        <div class="skill-card-title">Databases</div>
+        <div class="skill-card-items">PostgreSQL · SQLite · SQL · Flask-Migrate · Alembic</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">🛠️</div>
+        <div class="skill-card-title">Tools & DevOps</div>
+        <div class="skill-card-items">Git · GitHub · Docker · Railway · pytest · VS Code · Postman</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">☕</div>
+        <div class="skill-card-title">Other Languages</div>
+        <div class="skill-card-items">Java · JavaFX · SQL · Haitian Creole · French · Spanish</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon">📐</div>
+        <div class="skill-card-title">Concepts</div>
+        <div class="skill-card-items">ORM · CRUD · MVC · Agile · Cloud Deployment · API Integration · Test-Driven Development</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section-alt">
+    <div class="section-inner">
+      <div class="reveal">
+        <div class="section-label">Contact</div>
+        <h2 class="section-title">Let's talk</h2>
+        <p class="section-sub">Open to internship opportunities, collaborations, or just a conversation.</p>
+      </div>
+      <div class="contact-inner reveal">
+        <div class="contact-info">
+          <p>I'm actively looking for backend or full-stack internship opportunities graduating July 2026. If you think I'd be a good fit for your team, reach out — I'd love to hear from you.</p>
+          <div class="contact-links">
+            <a href="mailto:dulciobenjamin@gmail.com" class="contact-link">
+              <span class="contact-link-icon">✉️</span>
+              dulciobenjamin@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/benjamin-dulcio" target="_blank" class="contact-link">
+              <span class="contact-link-icon">💼</span>
+              linkedin.com/in/benjamin-dulcio
+            </a>
+            <a href="https://github.com/bmdzoe" target="_blank" class="contact-link">
+              <span class="contact-link-icon">🐙</span>
+              github.com/bmdzoe
+            </a>
+            <a href="https://cinevault-production-d7f5.up.railway.app" target="_blank" class="contact-link">
+              <span class="contact-link-icon">🎬</span>
+              CineVault — Live Demo
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-input" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-input" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p id="form-success" class="form-success hidden">✓ Message sent! I'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Benjamin Dulcio · <a href="https://github.com/bmdzoe/bmdzoe.github.io" target="_blank">View source</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
