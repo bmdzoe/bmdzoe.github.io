@@ -6,7 +6,7 @@
   <title>Benjamin Dulcio — Software Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style1.css">
 </head>
 <body>
@@ -82,12 +82,13 @@
     </div>
     <div class="about-grid reveal">
       <div class="about-text">
-        <p>I'm a Software Engineering student at Kennesaw State University, graduating in July 2026. I got into coding because I wanted to build things — not just learn theory. That's still what drives me.</p>
+        <p>I'm a Software Engineering student at Kennesaw State University, graduating July 2026. I got into coding because I wanted to build things — not just learn theory. That's still what drives me.</p>
         <p>My biggest project so far is CineVault — a full-stack movie tracking app I built because I wanted a place to track what I watch. It ended up becoming a full platform with a Flask REST API, React frontend, PostgreSQL database, Google OAuth, trailers, watchlists, and 30+ automated tests.</p>
-        <p>Outside of coding, I'm into gaming and sports. I speak French, Spanish, and Haitian Creole. I like problems that don't have obvious answers.</p>
-        <p class="about-btns">
-          <a href="https://www.linkedin.com/in/benjamin-dulcio" class="btn btn-outline" target="_blank">LinkedIn ↗</a>
-          <a href="https://github.com/bmdzoe" class="btn btn-outline" target="_blank">GitHub ↗</a>
+        <p>Outside of coding I'm into gaming and sports. I speak French, Spanish, and Haitian Creole. I like problems that don't have obvious answers.</p>
+        <p style="margin-top: 1.5rem;">
+          <a href="https://www.linkedin.com/in/benjamin-dulcio" class="btn btn-outline" style="display:inline-flex;" target="_blank">LinkedIn ↗</a>
+          &nbsp;
+          <a href="https://github.com/bmdzoe" class="btn btn-outline" style="display:inline-flex;" target="_blank">GitHub ↗</a>
         </p>
       </div>
       <div class="about-details">
@@ -96,7 +97,7 @@
           <div class="detail-card-body">
             <strong>B.S. Software Engineering</strong><br>
             Kennesaw State University<br>
-            <span class="detail-muted">Expected July 2026</span>
+            <span style="color: var(--muted); font-size: 0.85rem;">Expected July 2026</span>
           </div>
         </div>
         <div class="detail-card">
@@ -104,7 +105,7 @@
           <div class="detail-card-body">
             <strong>Next.js App Router Fundamentals</strong><br>
             Vercel · Issued Jan 2026<br>
-            <span class="detail-muted">Credential ID: dashboard-app</span>
+            <span style="color: var(--muted); font-size: 0.85rem;">Credential ID: dashboard-app</span>
           </div>
         </div>
         <div class="detail-card">
@@ -120,8 +121,8 @@
   </section>
 
   <!-- PROJECTS -->
-  <section id="projects" class="section-alt">
-    <div class="section-inner">
+  <section id="projects" style="background: var(--surface); max-width: 100%; padding: 5rem 0;">
+    <div style="max-width: 1100px; margin: 0 auto; padding: 0 2.5rem;">
       <div class="reveal">
         <div class="section-label">My Work</div>
         <h2 class="section-title">Things I've built</h2>
@@ -131,8 +132,8 @@
 
         <!-- CineVault — Featured -->
         <div class="project-card featured">
-          <div class="project-img dark">
-            <span class="project-emoji">🎬</span>
+          <div class="project-img">
+            <span style="font-size: 5rem; position: relative; z-index: 1;">🎬</span>
           </div>
           <div class="project-body">
             <div class="project-tags">
@@ -148,20 +149,18 @@
               <span class="live-badge"><span class="live-dot"></span> Live</span>
             </h3>
             <p class="project-desc">
-              A full-stack movie tracking platform I built because I wanted to track what I watch. Features a Flask REST API, Netflix-style React frontend, PostgreSQL database, Google OAuth, personal watchlists, user reviews, live trailers, and TMDB-powered recommendations. Deployed to Railway with Docker and 30+ automated pytest tests.
+              A full-stack movie tracking platform I built because I wanted to track what I watch. Features a Flask REST API, Netflix-style React frontend, PostgreSQL database, Google OAuth, personal watchlists, user reviews, live trailers, and TMDB-powered movie recommendations. Deployed to Railway with Docker and 30+ automated pytest tests.
             </p>
             <div class="project-links">
-              <a href="https://cinevault-production-d7f5.up.railway.app" target="_blank" class="btn btn-primary btn-sm">Live Demo ↗</a>
-              <a href="https://github.com/bmdzoe/cinevault" target="_blank" class="btn btn-outline btn-sm">GitHub ↗</a>
+              <a href="https://cinevault-production-d7f5.up.railway.app" target="_blank" class="btn btn-primary" style="font-size:0.82rem; padding: 0.6rem 1.2rem;">Live Demo ↗</a>
+              <a href="https://github.com/bmdzoe/cinevault" target="_blank" class="btn btn-outline" style="font-size:0.82rem; padding: 0.6rem 1.2rem;">GitHub ↗</a>
             </div>
           </div>
         </div>
 
         <!-- Weather App -->
         <div class="project-card">
-          <div class="project-img light-blue">
-            <span class="project-emoji">🌤</span>
-          </div>
+          <div class="project-img-sm">🌤</div>
           <div class="project-body">
             <div class="project-tags">
               <span class="project-tag">Python</span>
@@ -178,16 +177,14 @@
 
         <!-- Login GUI -->
         <div class="project-card">
-          <div class="project-img light-sky">
-            <span class="project-emoji">🔐</span>
-          </div>
+          <div class="project-img-sm" style="background: linear-gradient(135deg, #f0f9ff, #e0f2fe);">🔐</div>
           <div class="project-body">
             <div class="project-tags">
               <span class="project-tag">Java</span>
               <span class="project-tag">JavaFX</span>
             </div>
             <h3 class="project-title">Login GUI</h3>
-            <p class="project-desc">A GUI login app in Java and JavaFX with username and password authentication. Built to understand Action Events and the Action Listener Interface.</p>
+            <p class="project-desc">A GUI login application in Java and JavaFX with username and password authentication. Built to understand Action Events, Action Listener Interface, and conditionals.</p>
             <div class="project-links">
               <a href="https://github.com/bmdzoe" target="_blank">GitHub ↗</a>
             </div>
@@ -196,9 +193,7 @@
 
         <!-- Tic Tac Toe -->
         <div class="project-card">
-          <div class="project-img light-purple">
-            <span class="project-emoji">🎮</span>
-          </div>
+          <div class="project-img-sm" style="background: linear-gradient(135deg, #fdf4ff, #fae8ff);">🎮</div>
           <div class="project-body">
             <div class="project-tags">
               <span class="project-tag">Java</span>
@@ -213,9 +208,7 @@
 
         <!-- Hangman -->
         <div class="project-card">
-          <div class="project-img light-orange">
-            <span class="project-emoji">📝</span>
-          </div>
+          <div class="project-img-sm" style="background: linear-gradient(135deg, #fff7ed, #ffedd5);">📝</div>
           <div class="project-body">
             <div class="project-tags">
               <span class="project-tag">Java</span>
@@ -274,8 +267,8 @@
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="section-alt">
-    <div class="section-inner">
+  <section id="contact" style="background: var(--surface); max-width: 100%; padding: 5rem 0;">
+    <div style="max-width: 1100px; margin: 0 auto; padding: 0 2.5rem;">
       <div class="reveal">
         <div class="section-label">Contact</div>
         <h2 class="section-title">Let's talk</h2>
@@ -303,7 +296,7 @@
             </a>
           </div>
         </div>
-        <form class="contact-form" id="contactForm">
+        <form class="contact-form" onsubmit="handleSubmit(event)">
           <div class="form-group">
             <label class="form-label">Name</label>
             <input type="text" class="form-input" placeholder="Your name" required />
@@ -317,7 +310,7 @@
             <textarea class="form-textarea" placeholder="What's on your mind?" required></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Send Message</button>
-          <p id="form-success" class="form-success hidden">✓ Message sent! I'll get back to you soon.</p>
+          <p id="form-success" style="display:none; color: #065f46; font-size: 0.9rem;">✓ Message sent! I'll get back to you soon.</p>
         </form>
       </div>
     </div>
@@ -325,9 +318,27 @@
 
   <!-- FOOTER -->
   <footer>
-    <p>© 2026 Benjamin Dulcio · <a href="https://github.com/bmdzoe/bmdzoe.github.io" target="_blank">View source</a></p>
+    <p>© 2026 Benjamin Dulcio · Built with HTML & CSS · <a href="https://github.com/bmdzoe/bmdzoe.github.io" target="_blank">View source</a></p>
   </footer>
 
-  <script src="script.js"></script>
+  <script>
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 100);
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => observer.observe(el));
+
+    // Form submit
+    function handleSubmit(e) {
+      e.preventDefault();
+      document.getElementById('form-success').style.display = 'block';
+      e.target.reset();
+    }
+  </script>
 </body>
 </html>
