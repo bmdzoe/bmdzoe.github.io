@@ -1,6 +1,6 @@
-/*Reset*/
+/*Reset */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-/*Variables*/
+/*Variables */
 :root {
   --bg: #f7f5f0;
   --surface: #ffffff;
@@ -148,7 +148,7 @@ nav {
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
-/*Buttons*/
+/*Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -171,7 +171,7 @@ nav {
 }
 .btn-outline:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
 .btn-sm { font-size: 0.82rem; padding: 0.6rem 1.2rem; }
-/*Sections*/
+/* Sections*/
 section {
   padding: 5rem 2.5rem;
   max-width: 1100px;
@@ -208,7 +208,7 @@ section {
   max-width: 500px;
   margin-bottom: 3rem;
 }
-/*About*/
+/*About */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -243,7 +243,7 @@ section {
 }
 .detail-card-body { font-size: 0.9rem; color: var(--text); }
 .detail-muted { color: var(--muted); font-size: 0.85rem; }
-/* Projects*/
+/*Projects*/
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -407,14 +407,14 @@ footer {
   font-size: 0.85rem;
   color: var(--muted);
 }
-/*Scroll Reveal*/
+/* Scroll Reveal*/
 .reveal {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 .reveal.visible { opacity: 1; transform: translateY(0); }
-/*Animations*/
+/*Animations */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -423,7 +423,7 @@ footer {
   0%, 100% { opacity: 1; }
   50%       { opacity: 0.4; }
 }
-/* Responsive*/
+/*Responsive*/
 @media (max-width: 768px) {
   nav { padding: 1rem 1.25rem; }
   .nav-links { display: none; }
